@@ -1,4 +1,4 @@
-package com.dailycodebuffer.ServiceB.controller;
+package com.learn.with.mayur.b.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;

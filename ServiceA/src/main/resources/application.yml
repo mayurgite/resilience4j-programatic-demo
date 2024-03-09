@@ -39,3 +39,8 @@ resilience4j:
         limitForPeriod: 10
         limitRefreshPeriod: 10s
         timeoutDuration: 3s
+  bulkhead:
+    instances:
+      serviceA:
+        maxWaitDuration: 1s
+        maxConcurrentCalls: 10

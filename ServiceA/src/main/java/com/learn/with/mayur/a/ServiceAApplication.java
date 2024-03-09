@@ -1,4 +1,4 @@
-package com.dailycodebuffer.ServiceA;
+package com.learn.with.mayur.a;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
