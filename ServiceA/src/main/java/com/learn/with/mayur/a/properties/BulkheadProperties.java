@@ -5,10 +5,7 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 @ConfigurationProperties(prefix = "resilience4j.bulkhead.instances")
 public class BulkheadProperties {
 
-
-
-
-    public class ServiceA {
+    public static class ServiceA {
         private String maxWaitDuration;
         private String maxConcurrentCalls;
 
