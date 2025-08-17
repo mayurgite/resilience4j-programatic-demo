@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/find")
+@RequestMapping("/car")
 public class ServiceAController {
 
     private final CircuitBreaker serviceACircuitBreaker;
@@ -30,7 +30,7 @@ public class ServiceAController {
         this.serviceARetry = serviceARetry;
     }
 
-    @GetMapping("/car")
+    @GetMapping("/find")
     public String serviceA() {
         return Decorators.ofSupplier(
                         () -> service.findCar("carId" + count++)
